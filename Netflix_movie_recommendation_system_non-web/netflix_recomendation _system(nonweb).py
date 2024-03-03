@@ -9,7 +9,7 @@ Original file is located at
 
 #data loading
 import pandas as pd
-movies=pd.read_csv('/content/drive/MyDrive/testdatsetfiles/dataset.csv')
+movies=pd.read_csv('/content/drive/MyDrive/testdatsetfiles/dataset.csv') """for you use your directory where the csv file is respectively """
 #data exploratiom
 movies.describe
 movies.isnull().sum()
